@@ -12,6 +12,6 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        '*'  // * = todas as rotas não precisarao verificar o csrf por ser API
     ];
 }
